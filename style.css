@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: hsl(225, 100%, 94%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.card {
+	width: 300px;
+	height: 450px;
+	background-color: white;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 3px 3px 25px hsla(223, 47%, 23%, 0.123);
+	flex-direction: column;
+	align-items: center;
+}
+.hero {
+	border-radius: 10px 10px 0 0px;
+	width: 300px;
+}
+.title {
+	color: hsl(223, 47%, 23%);
+	margin-top: 32px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: center;
+}
+.subtitle {
+	color: hsl(224, 23%, 55%);
+	margin-top: 12px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-align: center;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.plan {
+	display: flex;
+	width: 80%;
+	height: 15%;
+	background: hsl(225, 100%, 98%);
+	border-radius: 10px;
+	margin-top: 16px;
+	align-items: center;
+}
+.music-circle {
+	width: 32px;
+	height: 32px;
+	margin-left: 16px;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin-left: 16px;
+}
+.plan-title {
+	font-size: 12px;
+	font-weight: 700;
+	font-family: 'Red Hat Display', sans-serif;
+	color: hsl(223, 47%, 23%);
+}
+.plan-price {
+	font-size: 10px;
+	font-weight: 500;
+	font-family: 'Red Hat Display', sans-serif;
+	color: hsl(224, 23%, 55%);
+}
+.text-button {
+	font-size: 10px;
+	font-weight: 500;
+	cursor: pointer;
+	font-family: 'Red Hat Display', sans-serif;
+	color: hsl(245, 75%, 52%);
+	margin-left: 56px;
+	font-weight: 900;
+	text-decoration: underline;
+}
+.primary-button {
+	margin-top: 16px;
+	display: flex;
+	width: 80%;
+	height: 8%;
+	background: hsl(245, 75%, 52%);
+	border-radius: 8px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 10px;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	box-shadow: 3px 5px 20px hsla(223, 47%, 23%, 0.247);
+	cursor: pointer;
+}
+.secondary-button {
+	color: hsl(224, 23%, 55%);
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	margin-top: 16px;
+	cursor: pointer;
+}
+.primary-button:hover {
+	opacity: 0.8;
+}
+.secondary-button:hover {
+	color: hsl(223, 47%, 23%);
+}
+.text-button:hover{
+	text-decoration: none;
+	opacity: 0.8;
+}
