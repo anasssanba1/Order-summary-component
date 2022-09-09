@@ -4,11 +4,16 @@
 	box-sizing: border-box;
 }
 body {
-	background: hsl(225, 100%, 94%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	background: url('images/pattern-background-desktop.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: rgb(225,233,255);
+	
+
 }
 .card {
 	width: 300px;
